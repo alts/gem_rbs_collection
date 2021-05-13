@@ -3925,6 +3925,7 @@ module ActiveModel
       # NOTE: Calling +validate+ multiple times on the same method will overwrite previous definitions.
       #
       def validate: (*untyped args) { () -> untyped } -> untyped
+                  | (*untyped args) -> untyped
 
       # List all validators that are being used to validate the model using
       # +validates_with+ method.
