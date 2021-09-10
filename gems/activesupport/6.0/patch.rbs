@@ -84,6 +84,20 @@ module OpenSSL
 end
 
 module Rails
+  module Generators
+    module Migration
+    end
+
+    class Base
+    end
+
+    class NamedBase < Base
+    end
+  end
+
   class Railtie
+  end
+
+  class Engine < Railtie
   end
 end
