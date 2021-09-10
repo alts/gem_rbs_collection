@@ -6150,7 +6150,7 @@ class Time
   def formatted_offset: (?bool colon, ?untyped? alternate_utc_string) -> untyped
 
   # Aliased to +xmlschema+ for compatibility with +DateTime+
-  alias rfc3339 xmlschema
+  # alias rfc3339 xmlschema
 end
 
 class Time
